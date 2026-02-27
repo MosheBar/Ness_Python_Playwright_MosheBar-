@@ -13,9 +13,10 @@ def browser(playwright: Playwright) -> Generator[Browser, None, None]:
         browser_instance = playwright.chromium.connect(ws_endpoint=GRID_URL)
     else:
         logger.info(f"Launching local Playwright Chromium instance (headless={IS_CI})")
+        ci_args = ['--no-sandbox', '--disable-dev-shm-usage'] if IS_CI else ['--start-maximized']
         browser_instance = playwright.chromium.launch(
             headless=IS_CI,
-            args=['--start-maximized']
+            args=ci_args
         )
     yield browser_instance
     browser_instance.close()
