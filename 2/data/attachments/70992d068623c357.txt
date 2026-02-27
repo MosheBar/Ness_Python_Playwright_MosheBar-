@@ -1,0 +1,1 @@
+INFO     ECommerceFramework:conftest.py:16 Launching local Playwright Chromium instance
