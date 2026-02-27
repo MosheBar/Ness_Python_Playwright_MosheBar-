@@ -1,0 +1,9 @@
+2026-02-27 06:53:42,330 - ECommerceFramework - INFO - Launching local Playwright Chromium instance (headless=True)
+2026-02-27 06:53:46,066 - ECommerceFramework - INFO - No credentials provided. Proceeding as Guest checkout.
+2026-02-27 06:53:46,066 - ECommerceFramework - INFO - Attempting 'fill ('shoes')' via locator [1/2]: .gh-search-input__wrap input
+2026-02-27 06:53:46,165 - ECommerceFramework - INFO - Successfully executed 'fill ('shoes')' on locator: .gh-search-input__wrap input
+2026-02-27 06:53:46,165 - ECommerceFramework - INFO - Attempting 'click' via locator [1/3]: .gh-search-button__wrap button
+2026-02-27 06:53:46,639 - ECommerceFramework - INFO - Successfully executed 'click' on locator: .gh-search-button__wrap button
+2026-02-27 06:53:51,687 - ECommerceFramework - WARNING - Price filter selector not visible: .x-textrange__input--to input
+2026-02-27 06:53:51,690 - ECommerceFramework - WARNING - Price filter selector not visible: input.x-textrange__input--max
+2026-02-27 06:53:51,690 - ECommerceFramework - ERROR - Price filter input NOT found — skipping price filter
