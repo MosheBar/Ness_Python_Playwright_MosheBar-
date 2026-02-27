@@ -1,0 +1,9 @@
+{
+    "ebay": [
+        {
+            "query": "shoes",
+            "maxPrice": 220,
+            "limit": 3
+        }
+    ]
+}

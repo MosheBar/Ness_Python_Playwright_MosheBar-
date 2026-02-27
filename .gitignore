@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment / secrets — NEVER commit credentials
+# .env
+
+# Pytest
+.pytest_cache/
+*.log
+
+# Allure
+allure-results/
+allure-report/
+cart_trace.zip
+
+# Playwright
+test-results/
+playwright-report/
+
+# Screenshots / traces generated during runs
+screenshots/
+*.zip
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db

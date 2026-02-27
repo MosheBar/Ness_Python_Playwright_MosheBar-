@@ -1,0 +1,78 @@
+{
+    "home": {
+        "url": "https://www.ebay.com",
+        "search_input": [
+            ".gh-search-input__wrap input",
+            "#gh-ac"
+        ],
+        "search_btn": [
+            ".gh-search-button__wrap button",
+            "input[type='submit']",
+            "button[id*='search']"
+        ],
+        "login_link": [
+            "#gh-ug a[href*='signin']"
+        ],
+        "login_url": "https://signin.ebay.com/ws/eBayISAPI.dll?SignIn"
+    },
+    "search": {
+        "price_filter_input_max": [
+            ".x-textrange__input--to input",
+            "input.x-textrange__input--max"
+        ],
+        "price_filter_submit": [
+            ".x-textrange__button button",
+            ".x-textrange__button",
+            "button[aria-label='Submit price range']"
+        ],
+        "item_links": [
+            ".srp-results .su-card-container__content .s-card__link",
+            ".srp-results a[class*='link']"
+        ],
+        "next_page_btn": [
+            ".pagination__next:not([aria-disabled='true'])",
+            "a[aria-label='Next page']"
+        ]
+    },
+    "item": {
+        "variant_dropdowns": [
+            "[data-testid='x-msku-evo'] .listbox-button__control",
+            "[data-testid='x-msku-evo'] select.listbox__native"
+        ],
+        "variant_options": [
+            "[role='option'][data-sku-value-name]:not([aria-disabled='true'])"
+        ],
+        "variant_buttons": [
+            ".x-msku__button-box button:not([disabled])"
+        ],
+        "add_to_cart_btn": [
+            "[data-testid='x-atc-action']",
+            "a[id^='atcBtn_btn']",
+            "[data-track*='atc']"
+        ]
+    },
+    "cart": {
+        "url": "https://cart.ebay.com",
+        "cart_subtotal_text": [
+            "[data-test-id='SUBTOTAL']",
+            ".g-styles [data-test-id='SUBTOTAL'] span.text-display-span",
+            ".cart-summary-line-item[data-test-id='SUBTOTAL'] span",
+            "div[data-test-id='SUBTOTAL'] span"
+        ]
+    },
+    "login": {
+        "url": "https://signin.ebay.com/ws/eBayISAPI.dll?SignIn",
+        "username_input": [
+            "#userid"
+        ],
+        "continue_btn": [
+            "#signin-continue-btn"
+        ],
+        "password_input": [
+            "#pass"
+        ],
+        "submit_btn": [
+            "#sgnBt"
+        ]
+    }
+}
