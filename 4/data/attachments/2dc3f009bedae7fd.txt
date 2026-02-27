@@ -1,9 +1,0 @@
-INFO     ECommerceFramework:conftest.py:15 Launching local Playwright Chromium instance (headless=True)
-INFO     ECommerceFramework:test_ecommerce.py:57 No credentials provided. Proceeding as Guest checkout.
-INFO     ECommerceFramework:base_page.py:20 Attempting 'fill ('shoes')' via locator [1/2]: .gh-search-input__wrap input
-INFO     ECommerceFramework:base_page.py:22 Successfully executed 'fill ('shoes')' on locator: .gh-search-input__wrap input
-INFO     ECommerceFramework:base_page.py:20 Attempting 'click' via locator [1/3]: .gh-search-button__wrap button
-INFO     ECommerceFramework:base_page.py:22 Successfully executed 'click' on locator: .gh-search-button__wrap button
-WARNING  ECommerceFramework:abstract_search_results_page.py:42 Price filter selector not visible: .x-textrange__input--to input
-WARNING  ECommerceFramework:abstract_search_results_page.py:42 Price filter selector not visible: input.x-textrange__input--max
-ERROR    ECommerceFramework:abstract_search_results_page.py:22 Price filter input NOT found — skipping price filter
