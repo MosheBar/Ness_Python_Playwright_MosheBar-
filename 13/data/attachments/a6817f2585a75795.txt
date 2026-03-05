@@ -1,0 +1,29 @@
+2026-03-05 00:05:30,375 - ECommerceFramework - INFO - Launching local Playwright Chromium instance (headless=True)
+2026-03-05 00:05:32,358 - ECommerceFramework - INFO - No credentials provided. Proceeding as Guest checkout.
+2026-03-05 00:05:32,358 - ECommerceFramework - INFO - Attempting '_fill' via locator [1/2]: .gh-search-input__wrap input
+2026-03-05 00:05:32,481 - ECommerceFramework - INFO - Successfully executed '_fill' on locator: .gh-search-input__wrap input
+2026-03-05 00:05:32,481 - ECommerceFramework - INFO - Attempting '_click' via locator [1/3]: .gh-search-button__wrap button
+2026-03-05 00:05:32,831 - ECommerceFramework - INFO - Successfully executed '_click' on locator: .gh-search-button__wrap button
+2026-03-05 00:05:36,443 - ECommerceFramework - INFO - Price filter input found: .x-textrange__input--to input
+2026-03-05 00:05:43,500 - ECommerceFramework - INFO - Price filter submitted via: .x-textrange__button
+2026-03-05 00:05:48,044 - ECommerceFramework - INFO - No variants found — proceeding without selection
+2026-03-05 00:05:48,044 - ECommerceFramework - INFO - Attempting '_click' via locator [1/3]: [data-testid='x-atc-action']
+2026-03-05 00:05:49,596 - ECommerceFramework - INFO - Successfully executed '_click' on locator: [data-testid='x-atc-action']
+2026-03-05 00:05:53,776 - ECommerceFramework - INFO - Found 2 custom listbox variant(s) via '[data-testid='x-msku-evo'] .listbox-button__control'
+2026-03-05 00:05:56,755 - ECommerceFramework - INFO - Attempting '_click' via locator [1/3]: [data-testid='x-atc-action']
+2026-03-05 00:05:57,003 - ECommerceFramework - INFO - Successfully executed '_click' on locator: [data-testid='x-atc-action']
+2026-03-05 00:06:00,117 - ECommerceFramework - INFO - Found 2 custom listbox variant(s) via '[data-testid='x-msku-evo'] .listbox-button__control'
+2026-03-05 00:06:03,100 - ECommerceFramework - INFO - Attempting '_click' via locator [1/3]: [data-testid='x-atc-action']
+2026-03-05 00:06:03,287 - ECommerceFramework - INFO - Successfully executed '_click' on locator: [data-testid='x-atc-action']
+2026-03-05 00:06:05,772 - ECommerceFramework - INFO - Attempting '_get_number' via locator [1/4]: [data-test-id='SUBTOTAL']
+2026-03-05 00:06:10,831 - ECommerceFramework - WARNING - Timeout executing '_get_number' on locator: [data-test-id='SUBTOTAL']
+2026-03-05 00:06:10,831 - ECommerceFramework - INFO - Attempting '_get_number' via locator [2/4]: .g-styles [data-test-id='SUBTOTAL'] span.text-display-span
+2026-03-05 00:06:15,847 - ECommerceFramework - WARNING - Timeout executing '_get_number' on locator: .g-styles [data-test-id='SUBTOTAL'] span.text-display-span
+2026-03-05 00:06:15,847 - ECommerceFramework - INFO - Attempting '_get_number' via locator [3/4]: .cart-summary-line-item[data-test-id='SUBTOTAL'] span
+2026-03-05 00:06:20,862 - ECommerceFramework - WARNING - Timeout executing '_get_number' on locator: .cart-summary-line-item[data-test-id='SUBTOTAL'] span
+2026-03-05 00:06:20,862 - ECommerceFramework - INFO - Attempting '_get_number' via locator [4/4]: div[data-test-id='SUBTOTAL'] span
+2026-03-05 00:06:25,876 - ECommerceFramework - WARNING - Timeout executing '_get_number' on locator: div[data-test-id='SUBTOTAL'] span
+2026-03-05 00:06:25,877 - ECommerceFramework - ERROR - Failed to execute '_get_number' after trying all locators: ["[data-test-id='SUBTOTAL']", ".g-styles [data-test-id='SUBTOTAL'] span.text-display-span", ".cart-summary-line-item[data-test-id='SUBTOTAL'] span", "div[data-test-id='SUBTOTAL'] span"]. Last Error: Locator.wait_for: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("div[data-test-id='SUBTOTAL'] span").first to be visible
+
